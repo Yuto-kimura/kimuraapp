@@ -15,8 +15,8 @@
 
 
 line.bot:
-  channel-token: 'Put Your Channel Token Here.'
-  channel-secret: 'Put Your Channel Secret Here.'
+  channel-token: ${CHANNEL_TOKEN}
+  channel-secret: ${CHANNEL_SECRET}
   handler.path: /callback
 
 # To remove Client wire logs. Please comment out following lines.
